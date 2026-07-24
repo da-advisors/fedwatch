@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python (in case the Hex script is ever run locally)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Source spreadsheets — the published JSON is the artifact, not the XLSX
+*.xlsx
+*.xls
+*.csv
+!data/*.json
+
+# Scratch
+*.log
+tmp/
+
+# scratch: files staged for you to delete manually
+_to_delete/
